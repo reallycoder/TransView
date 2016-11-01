@@ -14,9 +14,8 @@ import android.widget.LinearLayout;
 import java.util.NoSuchElementException;
 
 /**
- * author: 魏军刚
- * email: weijungang@innobuddy.com
- * date: Created on 16/9/18.
+ * author：armyjust on 2016/11/1 22:13
+ * email：armyjust@126.com
  */
 public class VerticalScrollView extends LinearLayout implements View.OnTouchListener {
     private View mHeaderLayout, mContentLayout;

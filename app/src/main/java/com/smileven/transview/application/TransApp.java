@@ -5,9 +5,8 @@ import android.app.Application;
 import com.smileven.transview.util.ScreenUtil;
 
 /**
- * author: 魏军刚
- * email: weijungang@innobuddy.com
- * date: Created on 16/11/1.
+ * author：armyjust on 2016/11/1 22:13
+ * email：armyjust@126.com
  */
 public class TransApp extends Application {
 

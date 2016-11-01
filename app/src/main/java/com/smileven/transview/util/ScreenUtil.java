@@ -7,9 +7,8 @@ import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
- * 屏幕工具类
- * Created by 魏军刚 on 
- * email: weijungang@innobuddy.com
+ * author：armyjust on 2016/11/1 22:13
+ * email：armyjust@126.com
  */
 public class ScreenUtil {
 
