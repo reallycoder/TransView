@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.smileven.transview.widget.VerticalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/trans_header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ff9600">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/trans_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00b5e9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="this is bottom" />
+        </RelativeLayout>
+
+    </com.smileven.transview.widget.VerticalScrollView>
+
+
+</LinearLayout>
