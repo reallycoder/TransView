@@ -24,8 +24,6 @@ public class VerticalScrollView extends LinearLayout implements View.OnTouchList
 
     private VelocityTracker vTracker;
 
-    private ScrollUpdateTitleListener updateTitleListener;
-
     public VerticalScrollView(Context context, AttributeSet attrs) {
         super(context, attrs);
         setOnTouchListener(this);
@@ -157,14 +155,6 @@ public class VerticalScrollView extends LinearLayout implements View.OnTouchList
         }
         mHeaderLayout.setTranslationY(currentTransY);
         mContentLayout.setTranslationY(currentTransY);
-    }
-
-    public void setScrollUpdateTitleListener(ScrollUpdateTitleListener listener){
-        this.updateTitleListener = listener;
-    }
-
-    public interface ScrollUpdateTitleListener{
-        void updateTitleAlpah(float alpha);
     }
 
 }
