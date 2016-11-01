@@ -129,13 +129,11 @@ public class VerticalScrollView extends LinearLayout implements View.OnTouchList
     }
 
     private void yVelocityUpdate(final float yVelocity){
-        Log.e("yVelocity", "yCelocity is ------------------ " + yVelocity);
         ValueAnimator animator = ValueAnimator.ofFloat(yVelocity, 0);
         animator.setInterpolator(new DecelerateInterpolator(3f));
         animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
-                Log.e("yVelocity", "yCelocity is ------------------ " + animation.getAnimatedValue());
                 float animValue = (float) animation.getAnimatedValue();
                 float offset = animValue * 16 / Math.abs(yVelocity);
                 setHeaderHeight((int) offset);
